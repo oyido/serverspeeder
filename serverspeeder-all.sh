@@ -248,4 +248,4 @@ echo "/serverspeeder/bin/serverSpeeder.sh start" >> /etc/rc.local
 #安装完显示状态
 bash /serverspeeder/bin/serverSpeeder.sh status
 apt-get remove samba dbus-x11 consolekit --purge -y
-apt-get remove -y apache2 apache2-doc apache2-utils apache2.2-common apache2.2-bin apache2-mpm-prefork apache2-doc apache2-mpm-worker mysql-client mysql-server mysql-common php killall apache2 avahi-daemon
+apt-get remove -y apache2 apache2-doc apache2-utils apache2.2-common apache2.2-bin apache2-mpm-prefork apache2-doc apache2-mpm-worker mysql-client mysql-server mysql-common php killall apache2 avahi*
